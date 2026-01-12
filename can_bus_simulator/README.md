@@ -9,3 +9,5 @@ Initial focus:
 - [x] Replay attack simulation
 - [ ] Spoofing attack
 - [ ] ML-based intrusion detection
+- [ ] Attack traffic simulation
+- [ ] Real-time CAN stream
