@@ -29,14 +29,14 @@ def main():
     messages.append(msg)
     time.sleep(0.05)\
 
-  with open("can_traffic.csv", "w", newline = "") as f;
+  with open("can_traffic.csv", "w", newline = "") as f:
     writer = csv.writer(f)
     writer.writerow(["timestamp", "can_id", "data"])
     for msg in messages:
-      writer.writerow(ms.to_row())
+      writer.writerow(msg.to_row())
 
 
-  print("Generated normal CAN traffic and saved to can_traffic.csv)
+  print("Generated normal CAN traffic and saved to can_traffic.csv")
 
-if __name__= "__main__"
+if __name__ == "__main__":
   main()
