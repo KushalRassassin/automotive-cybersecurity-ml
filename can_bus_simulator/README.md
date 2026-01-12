@@ -4,3 +4,8 @@ Initial focus:
 - Generate normal CAN frames
 - Log CAN messages
 - Extend to malicious traffic simulation
+### Current Status
+- [x] Normal CAN traffic generation
+- [x] Replay attack simulation
+- [ ] Spoofing attack
+- [ ] ML-based intrusion detection
