@@ -4,3 +4,7 @@ Initial focus:
 - Generate normal CAN frames
 - Log CAN messages
 - Extend to malicious traffic simulation
+### Current Status
+- [x] Normal CAN traffic generation
+- [ ] Attack traffic simulation
+- [ ] Real-time CAN stream
